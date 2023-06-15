@@ -10,8 +10,11 @@ function verificarPrimo(numero) {
             éPrimo = false
         }
     }
-    console.log('é primo: ' + éPrimo)
-
+    if (éPrimo) {
+        console.log('O número em questão é primo.')
+    } else {
+        console.log('O número em questão não é primo.')
+    }
     todosOsPrimos = []
 
 
